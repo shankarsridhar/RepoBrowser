@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Repo Browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="styles/css/repoBrowser.css">
+    <link rel="stylesheet" href="styles/css/normalize.css">
+</head>
+<body>
+
+    <h1>Repo Browser</h1>
+
+    <section>
+        <label for="txtOrgName" id="lblOrgName">Org Name: </label>
+        <input id="txtOrgName" type="text" placeholder="Git Org name"/>
+        <button id="btnSearch" class="btn">Search</button>
+    </section>
+
+    <section>
+        <header><span>Repos</span></header>
+        <ol class="hide">
+            <li>Java</li>
+            <li>SmartPants</li>
+            <li>Ember.js</li>
+        </ol>
+        <p class="hide">Sorry, no Repos were found.</p>
+    </section>
+
+    <!-- include script -->
+    <script src="scripts/libs/jquery-2.1.4.min.js"></script>
+    <script src="scripts/repoBrowser.js"></script>
+</body>
+</html>
