@@ -7,7 +7,8 @@ module.exports = function(grunt) {
                     paths: ["styles/less/*.less"]
                 },
                 files: {
-                    "styles/css/repoBrowser.css": "styles/less/repoBrowser.less"
+                    "styles/css/repoBrowser.css": "styles/less/repoBrowser.less",
+                    "styles/css/normalize.css": "styles/less/normalize.less"
                 }
             }
         },
