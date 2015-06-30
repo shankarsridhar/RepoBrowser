@@ -9,6 +9,7 @@ var RepoBrowser = (function() {
                 getReposeUrl = null;
 
             orgNameInfo.html(orgName);
+            
             if (orgName && orgName.length > 0) {
                 // get ajax response
 

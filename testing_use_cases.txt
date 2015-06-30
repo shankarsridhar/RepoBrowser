@@ -1,0 +1,13 @@
+Validation messages to be shown:
+-------------------------------
+- 0 Repos are found for a valid OrgName
+- 0 commits are found for a Repo
+
+User Input validation errors:
+----------------------------
+- Org Name Field is empty
+- OrgName not found
+
+Other error scenarios:
+---------------------
+- Reached the maximum limit for git API hits.
